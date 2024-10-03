@@ -30,5 +30,6 @@ export default async () => {
       }),
       UnoCSS(), // https://github.com/antfu/unocss
     ],
+    envPrefix: 'BENEFIT_', // 自定义环境变量前缀
   })
 }

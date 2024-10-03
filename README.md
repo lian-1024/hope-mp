@@ -1,5 +1,17 @@
+# Getting Started
+```js
+// 安装依赖
+pnpm i // or  npm i  or  yarn add
+
+// 编译为微信小程序
+pnpm dev:mp-weixin
+
+// 使用微信开发者工具运行 dist/dev/mp-weixin
+```
+
+# Preview
 <p align="center">
-  <img src="https://github.com/uni-helper/vitesse-uni-app/raw/main/.github/images/preview.png" width="300"/>
+  <img src="https://github.com/lian-1024/public-welfare-mp/blob/main/.github/images/preview.png?raw=true" width="300"/>
 </p>
 
 <h2 align="center">

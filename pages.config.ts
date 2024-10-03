@@ -7,6 +7,8 @@ export default defineUniPages({
     custom: {
       // uni-ui 规则如下配置
       '^uni-(.*)': '@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue',
+      // 以 Benefit 开头的组件， 在 components 文件夹中查找引入 (需要重启服务器)
+      '^Benefit(.*)': '@/components/Benefit$1.vue',
     },
   },
   pages: [
