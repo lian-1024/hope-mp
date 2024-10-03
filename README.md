@@ -45,3 +45,48 @@ pnpm dev:mp-weixin
 - ✒️ [Uni-UI](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html) - UniApp官方组件库
 
 - ⚒️ [Uni-Use](https://uni-helper.js.org/uni-use) - 组合式工具集
+
+```
+Benefit
+├── .github
+├── .husky                        // husky钩子
+├── dist                          // 编译后的文件
+├── src
+|  ├── api                        // 定义接口
+|  ├── components                 // 定义组件
+|  ├── composables                // 组合式函数
+|  ├── layout                     // 定义布局
+|  ├── pages                      // 定义页面
+|  |   ├── dynamic                // 发现页
+|  |   ├── index                  // 首页
+|  |   ├── my                     // 个人中心页
+|  |   ├── volunteer-activity     // 志愿活动页
+|  ├── static                     // 静态文件
+|  ├── store                      // 状态管理
+|  ├── types                      // 类型定义
+|  ├── utils                      // 工具
+|  ├── App.vue
+|  ├── auto-import.d.ts           // 自动导入类型定义
+|  ├── components.d.ts            // 组件类型定义
+|  ├── env.d.ts                   // 环境变量类型定义
+|  ├── main.ts
+|  ├── manifest.json
+|  ├── pages.json
+|  ├── shims.json                 // 适配文件
+|  ├── theme.json                 // 定义主题色
+|  ├── uni-pages.json
+|  └── uni.scss
+├── .editorconfig                 //编码规范
+├── commitlint.config.js          // commitlint 提交规范 配置
+├── eslint.config.mjs
+├── index.html
+├── package.json
+├── renovate.json                 // renovate 监控第三发依赖更新
+├── tsconfig.json
+├── vite.config.ts
+├── .env.development              // 开发环境变量
+├── .env.development              // 生产环境变量
+├── manifest.config.ts            // 同 manifest.json
+├── pages.config.ts               // 同 pages.json
+├── uno.config.ts                 // unocss 配置
+```
