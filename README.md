@@ -88,5 +88,5 @@ Benefit
 ├── .env.development              // 生产环境变量
 ├── manifest.config.ts            // 同 manifest.json
 ├── pages.config.ts               // 同 pages.json
-├── uno.config.ts                 // unocss 配置
+└── uno.config.ts                 // unocss 配置
 ```
