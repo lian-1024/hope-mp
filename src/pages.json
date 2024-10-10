@@ -36,11 +36,26 @@
       }
     },
     {
+      "path": "pages/recommen-projects/recommen-projects",
+      "type": "page",
+      "style": {}
+    },
+    {
       "path": "pages/volunteer-activity/volunteer-activity",
       "type": "page",
       "style": {
         "navigationBarTitleText": "做志愿"
       }
+    },
+    {
+      "path": "pages/index/components/publlc-open",
+      "type": "page",
+      "style": {}
+    },
+    {
+      "path": "pages/index/components/publlc-recommend",
+      "type": "page",
+      "style": {}
     }
   ],
   "globalStyle": {

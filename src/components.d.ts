@@ -7,6 +7,9 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-        // UniTitle: typeof import("@dcloudio/uni-ui/lib/uni-title/uni-title.vue")['default']
+    PubllcButton: typeof import('./components/publlc-button.vue')['default']
+    PubllcComponentActivity: typeof import('./components/publlc-component-activity.vue')['default']
+    PubllcInput: typeof import('./components/publlc-Input.vue')['default']
+    PubllcProjectsComponent: typeof import('./components/publlc-projects-component.vue')['default']
   }
 }

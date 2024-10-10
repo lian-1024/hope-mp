@@ -1,0 +1,44 @@
+view,swiper,swiper-item{
+	box-sizing: border-box;
+ }
+ 
+ .pageBg{
+    background: linear-gradient(210.76deg, rgba(237, 69, 86, 1) 0%, rgba(237, 69, 86, 0) 100%), linear-gradient(135deg, rgba(237, 69, 86, 1) 0%, rgba(237, 69, 86, 0) 100%);
+
+ }
+ 
+ .loadingLayout{
+	 padding:0 20rpx ;
+ }
+ 
+
+ 
+ .safe-area-inset-buttom{
+	 height: env(safe-area-inset-botton);
+ }
+
+ 
+ .uni-publlc-component{
+	overflow: hidden; // 隐藏超出内容
+    white-space: nowrap; // 不换行
+    text-overflow: ellipsis; //  超出部分显示省略号
+    padding: 0 10rpx;
+	
+ }
+ 
+
+
+ .uni-section .uni-section-header__content .distraction {
+	font-weight: bold !important;
+  }
+ .uni-section .uni-section-header__decoration.line {
+	  background: red !important;
+  }
+
+  ::v-deep  .uni-section .uni-section-header__decoration[data-v-17c33c2a] {
+	background-color:red;
+  }
+  
+  ::v-deep .uni-section .uni-section-header__content[data-v-17c33c2a]   {
+	font-weight: bold;
+  }

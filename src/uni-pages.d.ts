@@ -8,7 +8,10 @@ interface NavigateToOptions {
        "/pages/dynamic/dynamic" |
        "/pages/my/my" |
        "/pages/public-benefit/public-benefit" |
-       "/pages/volunteer-activity/volunteer-activity";
+       "/pages/recommen-projects/recommen-projects" |
+       "/pages/volunteer-activity/volunteer-activity" |
+       "/pages/index/components/publlc-open" |
+       "/pages/index/components/publlc-recommend";
 }
 interface RedirectToOptions extends NavigateToOptions {}
 
