@@ -6,15 +6,9 @@ import PubllcInput from '@/components/publlc-Input.vue'
 
 <template>
   <view class="navbar pageBg">
-    <view class="content-wrapper loadingLayout">
+    <view class="loadingLayout content-wrapper">
       <!-- 自定义导航栏 -->
-      <PubllcInput
-        btn-title="首页"
-        :show-btn="false"
-        show-btn1
-        search-text="搜索你要搜索的内容"
-        search-icon-type="search"
-      />
+      <PubllcInput btn-title="首页" :show-btn="false" show-btn1 search-text="搜索你要搜索的内容" search-icon-type="search" />
       <!-- 上下布局 -->
       <PubllcOpen />
     </view>
@@ -24,6 +18,4 @@ import PubllcInput from '@/components/publlc-Input.vue'
   </view>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
